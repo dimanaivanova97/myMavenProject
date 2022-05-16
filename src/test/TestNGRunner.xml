@@ -1,0 +1,8 @@
+<suite name="Suite1" parallel="methods" thread-count="2">
+    <test name="Regression" group-by-instances="true">
+        <classes>
+<!--            <class name="MySimpleTest" />-->
+            <class name="MyAnnotations" />
+        </classes>
+    </test>
+</suite>
